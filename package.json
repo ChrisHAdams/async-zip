@@ -1,0 +1,24 @@
+{
+  "name": "async-zip",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChrisHAdams/async-zip.git"
+  },
+  "keywords": [
+    "async",
+    "zip",
+    "gzip"
+  ],
+  "author": "Chris Adams",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChrisHAdams/async-zip/issues"
+  },
+  "homepage": "https://github.com/ChrisHAdams/async-zip#readme"
+}
