@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -12,13 +12,22 @@
   },
   "keywords": [
     "async",
+    "inflate",
+    "deflate",
     "zip",
-    "gzip"
+    "zlib"
   ],
   "author": "Chris Adams",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ChrisHAdams/async-zip/issues"
   },
-  "homepage": "https://github.com/ChrisHAdams/async-zip#readme"
+  "homepage": "https://github.com/ChrisHAdams/async-zip#readme",
+  "dependencies": {
+    "zlib": "^1.0.5"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
 }
