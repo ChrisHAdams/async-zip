@@ -16,5 +16,6 @@ const asyncZip = require('async-zip');
 const inputString = "The string to compress";
 const compressedString = await asyncZip.asyncCompressString(inputString);
 const deCompressedString = await asyncZip.asyncDecompressString(compressedString);
+console.log(deCompressedString.toString());
 
 ```
