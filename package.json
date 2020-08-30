@@ -1,6 +1,6 @@
 {
   "name": "async-zip",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A simple wrapper around ZLib.",
   "main": "index.js",
   "scripts": {
