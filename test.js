@@ -17,7 +17,7 @@ describe('asyncCompressString', function() {
       const expectedResult = 1;
 
       const compressedResult = await asyncZip.asyncCompressString(expectedResult);
-      assert.include(compressedResult.toString(),'TypeError: Invalid non-string/buffer chunk');
+      assert.include(compressedResult.toString(),'TypeError [ERR_INVALID_ARG_TYPE]: The "chunk" argument must be one of type string or Buffer. Received type number');
     });
 
 });
